@@ -1,5 +1,5 @@
 export enum PATH {
-  HOME = "/laundromat/home",
+  HOME = "/laundromat",
   EXAM = "/laundromat/exam",
   PROGRAMMING_TEST = "/laundromat/programming-test",
 }
