@@ -117,12 +117,12 @@ export default function WashingProcessModal({
 
         <div className="modal-action">
           <button
-            className="btn"
+            className="btn btn-outline"
             onClick={() => {
               handleClose();
             }}
           >
-            Close
+            ยกเลิก
           </button>
 
           <form onSubmit={handleSubmit(onSubmit)}>
@@ -131,7 +131,7 @@ export default function WashingProcessModal({
               type="submit"
               disabled={!isValid}
             >
-              Confirm
+              ยืนยัน
             </button>
           </form>
         </div>
