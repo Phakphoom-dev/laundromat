@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { object } from "yup";
 
 interface IUser {
   name: string;

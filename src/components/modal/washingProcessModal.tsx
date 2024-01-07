@@ -50,16 +50,14 @@ export default function WashingProcessModal({
     handleSubmit,
     setValue,
     reset,
-    formState: { isValid, errors },
+    formState: { isValid },
     watch,
   } = useForm<IWashingProcessForm>({
     mode: "onChange",
     resolver: yupResolver(schema),
   });
 
-  const onSubmit: SubmitHandler<IWashingProcessForm> = (
-    data: IWashingProcessForm
-  ) => {
+  const onSubmit: SubmitHandler<IWashingProcessForm> = () => {
     startWashing(LaundryStatus.BUSY, laundryItem.id);
     handleClose();
   };

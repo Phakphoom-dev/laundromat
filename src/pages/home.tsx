@@ -1,7 +1,7 @@
 import LaundryCard from "@/components/laundryCard/laundryCard";
 import QrCodeModal from "@/components/modal/qrCodeModal";
 import WashingProcessModal from "@/components/modal/washingProcessModal";
-import { ILaundryItem, LaundryStatus } from "@/interfaces/laundry/laundryItem";
+import { ILaundryItem } from "@/interfaces/laundry/laundryItem";
 import { useLaundryStore } from "@/stores/laundryStore";
 import { useState } from "react";
 
