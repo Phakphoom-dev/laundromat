@@ -32,7 +32,7 @@ export default function QrCodeModal({ isOpen, handleClose }: IQrCodeModal) {
           <div className="flex justify-center">
             <div className="avatar">
               <div className="w-96 rounded">
-                <img src="/qrCode.jpg" />
+                <img src="/laundromat/qrCode.jpg" />
               </div>
             </div>
           </div>
